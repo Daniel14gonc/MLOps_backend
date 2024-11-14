@@ -27,12 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Your React app (change to actual URL if needed)
-    "http://127.0.0.1:5173",  # In case you're using localhost and 127.0.0.1
-    # Add production URL if applicable
-]
-
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_HEADERS = [
     'authorization',
